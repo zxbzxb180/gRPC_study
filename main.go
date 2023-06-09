@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
+
+	err := fmt.Errorf("这里是错误信息")
+	fmt.Println(err)
 }
